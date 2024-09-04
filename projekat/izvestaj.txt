@@ -1,0 +1,18 @@
+
+Oba projekta su pisana u Python-u.Pokrecu se komandom u terminalu 
+python projekat1.py
+python projekat2.py
+
+Projekat1:
+Nalazi se u fajlu projekat1.py
+Izracunavanje entropije po formuli datih podataka, rekurzivno deli simbole u dve krupe za kodiranje, priprema kodnu tabelu koristeci Shannon-Fano algoritam, 
+zatim dekodira i konverzija izmedju bitova  i bajtova.
+Gradi Huffman stablo koristeci prioritetni red(heap), dekodira podatke kodirane Huffman metodom i koristi strukturu Cvr ya prestavljanje cvorova stabla.
+Kompresuje podatke tako sto trazi ponavljanja i zapisuje ih kao (poma, duzina, sledeci bajl) ili (0,0, simbol) za direktne simbole, dekodira podatke kompresovane LZ77 metodom
+Kompresuje podatke koristeci dinamicki recnik, dekodira podatke kompresovane LZW metodom koristeci recnik.
+
+Projekat2:
+Nalazi se u fajlu projekat2.py
+Sadrzi kod za Konstruisanje matrice H, seed indeks-78. Kod za tabelu sindroma i korektora. Kod za kodno rastojanje. 
+Treci deo sadrzi Gallager B algoritam.
+
